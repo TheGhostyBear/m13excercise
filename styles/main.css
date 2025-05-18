@@ -198,9 +198,16 @@ footer {
 	background-color: var(--accent-color);
 	color: var(--light_menu);
 	display: none;
+	z-index: 1;
 	& > li a { margin: 2px; }
 }
 
+/* video styling */
+video {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
 
 /* media queries */
 @media only screen and (min-width: 922px) {
