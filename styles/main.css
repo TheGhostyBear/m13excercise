@@ -207,6 +207,8 @@ video {
     width: 90%;
     display: block;
     margin: 0 auto;
+    object-fit: cover;
+    background-size: cover;
 }
 
 /* media queries */
